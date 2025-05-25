@@ -45,7 +45,7 @@ A comprehensive data analytics project analyzing sales performance for "ChocoDel
 ## 🚀 Installation
 1. Clone repository:
    ```bash
-   git clone https://github.com/yourusername/chocolate-sales-insights.git
+   git clone https://github.com/Dhruv1312-tech/Sales_Insights-DA-project-/edit/main/README.md
    ```
 2. Install requirements:
    ```bash
