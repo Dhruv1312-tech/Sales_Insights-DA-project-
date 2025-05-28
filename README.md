@@ -1,132 +1,105 @@
-# Chocolate Sales Insights - Data Analytics Project
+:
 
-![Sales Dashboard Preview](https://via.placeholder.com/800x400.png?text=Sales+Dashboard+Preview) <!-- Add actual screenshot link -->
+🍫 Chocolate Sales Insights - Data Analytics Project
+📋 Project Overview
+This project involves a comprehensive data preprocessing and exploratory data analysis (EDA) of a chocolate sales dataset to extract actionable business insights. Our goal is to uncover patterns, trends, and anomalies in the sales data and lay the groundwork for advanced predictive modeling.
 
-## 📌 Overview
-A comprehensive data analytics project analyzing sales performance for "ChocoDelight Inc." (fictional chocolate company). This project aims to transform raw sales data into actionable insights through data cleaning, analysis, and visualization.
+👥 Team Members
+Dhruv Goel – 23SCSE1010687
 
-**Key Features:**
-- Historical sales trend analysis
-- Product performance metrics
-- Regional sales comparisons
-- Customer segmentation
-- Revenue forecasting models
+Parth Gupta – 23SCSE1012066
 
-## 🎯 Objectives
-1. Identify top-performing products and markets
-2. Analyze seasonal sales patterns
-3. Discover underperforming regions
-4. Predict future sales trends
-5. Provide data-driven recommendations for growth
+Himanshu Kumar – 23SCSE1012398
 
-## 🛠️ Technologies Used
-- **Data Analysis:** Python (Pandas, NumPy), SQL
-- **Data Visualization:** Power BI/Tableau, Matplotlib, Seaborn
-- **Database:** MySQL
-- **Tools:** Jupyter Notebook, Excel
-- **Version Control:** Git/GitHub
+Priyanshu Dwivedi – 23SCSE1010480
 
-## 📂 Dataset Information
-**Data Sources:**
-- Sales Transactions (CSV)
-- Product Catalog (SQL Database)
-- Customer Demographics (Excel)
-- Regional Sales Data (API)
+🎯 Objectives
+Clean and transform raw sales data into a structured format.
 
-**Data Attributes:**
-- Transaction ID
-- Product SKU
-- Sales Region
-- Order Quantity
-- Unit Price
-- Customer Type
-- Order Date
+Identify trends across time, product categories, and regions.
 
-## 🚀 Installation
-1. Clone repository:
-   ```bash
-   git clone https://github.com/Dhruv1312-tech/Sales_Insights-DA-project-/edit/main/README.md
-   ```
-2. Install requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Import sample database:
-   ```sql
-   mysql -u username -p chocosales < database/choco_sales.sql
-   ```
+Detect anomalies in revenue and discount patterns.
 
-## 📊 Usage
-1. Data Exploration:
-   ```python
-   import pandas as pd
-   df = pd.read_csv('data/sales_data.csv')
-   print(df.describe())
-   ```
+Explore relationships between features influencing chocolate sales.
 
-2. Generate Regional Sales Report:
-   ```sql
-   SELECT region, SUM(total_sales) 
-   FROM transactions 
-   GROUP BY region 
-   ORDER BY 2 DESC;
-   ```
+Build a foundation for further strategic decision-making or predictive analytics.
 
-3. Run Jupyter Notebook for analysis:
-   ```bash
-   jupyter notebook Sales_Trend_Analysis.ipynb
-   ```
+🧹 Data Cleaning Steps
+Removed duplicate records.
 
-## 📈 Key Insights
-1. Top 3 Performing Products:
-   - Dark Chocolate Truffles (22% of total sales)
-   - Milk Chocolate Bars (18%)
-   - White Chocolate Cookies (15%)
+Standardized column names and data formats.
 
-2. Seasonal Patterns:
-   - 35% sales increase during holiday season
-   - Lowest sales in Q2
+Corrected data types (e.g., date, numeric).
 
-3. Regional Performance:
-   - North America: 42% total revenue
-   - Europe: 38%
-   - Asia-Pacific: 15%
+Imputed or removed missing values.
 
-## 📋 Project Structure
-```
-├── data/                   # Raw and cleaned datasets
-├── notebooks/              # Jupyter notebooks for analysis
-├── reports/                # Final reports and presentations
-├── src/                    # Python scripts and SQL queries
-├── visualizations/         # Power BI/Tableau files
-├── README.md
-└── requirements.txt
-```
+Validated data ranges and corrected outliers.
 
-## 🌟 Future Enhancements
-- Implement machine learning for demand forecasting
-- Create real-time dashboard with AWS QuickSight
-- Develop customer loyalty analysis module
-- Add supply chain analytics component
+❓ Handling Missing Data
+Mean/median imputation for numerical columns.
 
-## 👥 Contributors
-1- Dhruv goel (Team leader)
-2- Parth Gupta 
-3- Himanshu kumar 
-4- Priyanshu Raj
-## 📜 License
-MIT License - See [LICENSE](LICENSE) file
+Mode imputation for categorical columns.
 
----
+Forward-fill for time-series data.
 
-**Note:** Replace placeholder content (especially URLs, dataset details, and contributor information) with your actual project details. Add screenshots of your visualizations/dashboards for better presentation.
+Ensured data integrity post-imputation.
 
-This README template:
-1. Clearly communicates project objectives
-2. Shows technical competence
-3. Documents the analysis process
-4. Highlights key business insights
-5. Maintains academic project requirements
-6. Follows professional standards for data projects
+🛠️ Feature Engineering & Selection
+Created derived metrics like Total Discount Impact and Average Revenue per Unit.
 
-Would you like me to elaborate on any particular section or add specific technical details?
+Removed irrelevant or low-variance features.
+
+Encoded categorical variables (e.g., region, chocolate type).
+
+Handled multicollinearity by removing highly correlated features.
+
+✅ Data Consistency & Integrity
+Standardized formats (dates, currency).
+
+Validated calculations (e.g., revenue = units × price).
+
+Corrected contradictory data entries.
+
+Maintained naming consistency across categories.
+
+📊 Summary Statistics
+Descriptive statistics (mean, median, std dev, range) for key fields.
+
+Helped identify distribution patterns and variability in metrics.
+
+📈 Trends & Anomalies
+Seasonal and regional sales trends analyzed.
+
+Category-wise performance observed.
+
+Outlier detection via boxplots, scatter plots.
+
+Investigated data anomalies for potential market insights.
+
+📉 Outliers & Transformations
+Identified outliers using Z-scores and boxplots.
+
+Applied log transformations to reduce skewness.
+
+Normalized distributions for accurate trend analysis.
+
+🖼️ Visualizations
+Bar charts for revenue by category.
+
+Line graphs showing time-series sales trends.
+
+Boxplots for regional revenue comparisons.
+
+Heatmaps for correlation analysis and missing data visualization.
+
+🔚 Conclusion & Next Steps
+Dataset successfully cleaned and analyzed.
+
+Key business insights extracted regarding product performance and customer trends.
+
+Identified potential areas for improvement and further modeling.
+
+Next steps include segmentation and predictive modeling to support business strategy.
+
+🙏 Acknowledgments
+Thank you for reviewing our work. We appreciate your feedback and suggestions for improvement.
