@@ -1,8 +1,12 @@
-🍫 Chocolate Sales Insights 
+🍫 Chocolate Sales Insights  
+
+
 
 📋 Project Overview
 
 This project involves a comprehensive data preprocessing and exploratory data analysis (EDA) of a chocolate sales dataset to extract actionable business insights. Our goal is to uncover patterns, trends, and anomalies in the sales data and lay the groundwork for advanced predictive modeling.
+
+
 
 👥 Team Members
 
@@ -13,6 +17,8 @@ Parth Gupta – 23SCSE1012066
 Himanshu Kumar – 23SCSE1012398
 
 Priyanshu Dwivedi – 23SCSE1010480
+
+
 
 🎯 Objectives
 
@@ -26,6 +32,8 @@ Explore relationships between features influencing chocolate sales.
 
 Build a foundation for further strategic decision-making or predictive analytics.
 
+
+
 🧹 Data Cleaning Steps
 
 Removed duplicate records.
@@ -38,6 +46,8 @@ Imputed or removed missing values.
 
 Validated data ranges and corrected outliers.
 
+
+
 ❓ Handling Missing Data
 
 Mean/median imputation for numerical columns.
@@ -47,6 +57,8 @@ Mode imputation for categorical columns.
 Forward-fill for time-series data.
 
 Ensured data integrity post-imputation.
+
+
 
 🛠️ Feature Engineering & Selection
 
@@ -58,6 +70,8 @@ Encoded categorical variables (e.g., region, chocolate type).
 
 Handled multicollinearity by removing highly correlated features.
 
+
+
 ✅ Data Consistency & Integrity
 
 Standardized formats (dates, currency).
@@ -68,11 +82,15 @@ Corrected contradictory data entries.
 
 Maintained naming consistency across categories.
 
+
+
 📊 Summary Statistics
 
 Descriptive statistics (mean, median, std dev, range) for key fields.
 
 Helped identify distribution patterns and variability in metrics.
+
+
 
 📈 Trends & Anomalies
 
@@ -84,13 +102,7 @@ Outlier detection via boxplots, scatter plots.
 
 Investigated data anomalies for potential market insights.
 
-📉 Outliers & Transformations
 
-Identified outliers using Z-scores and boxplots.
-
-Applied log transformations to reduce skewness.
-
-Normalized distributions for accurate trend analysis.
 
 🖼️ Visualizations
 
@@ -102,6 +114,8 @@ Boxplots for regional revenue comparisons.
 
 Heatmaps for correlation analysis and missing data visualization.
 
+
+
 🔚 Conclusion & Next Steps
 
 Dataset successfully cleaned and analyzed.
@@ -111,7 +125,3 @@ Key business insights extracted regarding product performance and customer trend
 Identified potential areas for improvement and further modeling.
 
 Next steps include segmentation and predictive modeling to support business strategy.
-
-🙏 Acknowledgments
-
-Thank you for reviewing our work. We appreciate your feedback and suggestions for improvement.
