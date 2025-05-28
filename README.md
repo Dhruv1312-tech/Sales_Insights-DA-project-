@@ -1,6 +1,5 @@
-:
+#🍫 Chocolate Sales Insights 
 
-🍫 Chocolate Sales Insights - Data Analytics Project
 📋 Project Overview
 This project involves a comprehensive data preprocessing and exploratory data analysis (EDA) of a chocolate sales dataset to extract actionable business insights. Our goal is to uncover patterns, trends, and anomalies in the sales data and lay the groundwork for advanced predictive modeling.
 
