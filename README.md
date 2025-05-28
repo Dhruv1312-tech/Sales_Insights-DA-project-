@@ -1,4 +1,4 @@
-##🍫 Chocolate Sales Insights  
+🍫 Chocolate Sales Insights  
 
 
 
